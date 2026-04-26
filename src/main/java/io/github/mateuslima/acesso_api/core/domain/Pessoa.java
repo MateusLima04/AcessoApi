@@ -1,23 +1,23 @@
 package io.github.mateuslima.acesso_api.core.domain;
 
 public class Pessoa {
-    private int id;
+    private Long id;
     private String nome;
 
     public Pessoa() {
 
     }
 
-    public Pessoa(int id, String nome) {
+    public Pessoa(Long id, String nome) {
         this.id = id;
         this.nome = nome;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
